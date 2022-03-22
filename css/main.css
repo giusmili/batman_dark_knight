@@ -45,6 +45,9 @@ header h1, figure figcaption h2{
     color: #fafafa;
     background-color: var(--color-theme-header);
 }
+header h1{
+    text-transform: capitalize;
+}
 header h1::before{
     /* content: url(../favicons/favicon-32x32.png);
     vertical-align: middle; */
